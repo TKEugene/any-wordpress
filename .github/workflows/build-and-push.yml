@@ -42,8 +42,8 @@ jobs:
           context: .
           push: true
           tags: |
-            tkeugene/wordpress:${{ steps.semver.outputs.version }}
-            tkeugene/wordpress:latest
+            tkeugene/any-wordpress:${{ steps.semver.outputs.version }}
+            tkeugene/any-wordpress:latest
 
       - name: Tag release in git
         run: |
