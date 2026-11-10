@@ -1,4 +1,4 @@
-FROM wordpress:6.7-apache
+FROM wordpress:7.1.4-apache
 
 # Add any custom plugins/themes/config here as your project grows
 # COPY ./custom-theme /var/www/html/wp-content/themes/custom-theme
